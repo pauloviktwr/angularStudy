@@ -1,81 +1,59 @@
-# 📚 angularStudy
+# AngularStudy
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)  
-![GitHub Stars](https://img.shields.io/github/stars/pauloviktwr/angularStudy)  
-![GitHub Forks](https://img.shields.io/github/forks/pauloviktwr/angularStudy)
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
 
-## 📝 Índice
+## Development server
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Demonstração](#demonstração)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Rodar o Projeto](#como-rodar-o-projeto)
-- [Contribuição](#contribuição)
-- [Autor](#autor)
-- [Licença](#licença)
+To start a local development server, run:
 
----
+```bash
+ng serve
+```
 
-## 📖 Sobre o Projeto
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-Repositório criado para estudar e implementar conceitos do framework Angular.
+## Code scaffolding
 
----
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-## 🎥 Demonstração
-![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)
+```bash
+ng generate component component-name
+```
 
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
----
+```bash
+ng generate --help
+```
 
-## 🚀 Tecnologias Utilizadas
+## Building
 
-As principais tecnologias utilizadas neste projeto são:
+To build the project run:
 
-- Angular  
-- TypeScript  
-- HTML5  
-- CSS3  
+```bash
+ng build
+```
 
----
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## 🛠️ Como Rodar o Projeto
+## Running unit tests
 
-### Pré-requisitos:
-- Node.js instalado
-- Angular CLI instalada
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-### Passos:
-1. Clone o repositório: `git clone https://github.com/pauloviktwr/angularStudy.git`
-2. Acesse a pasta do projeto: `cd angularStudy`
-3. Instale as dependências: `npm install`
-4. Rode a aplicação: `ng serve`
-5. Acesse no navegador: `http://localhost:4200`
+```bash
+ng test
+```
 
-5. Acesse no navegador: `http://localhost:4200`
+## Running end-to-end tests
 
----
+For end-to-end (e2e) testing, run:
 
-## 🤝 Contribuição
+```bash
+ng e2e
+```
 
-Contribuições são sempre bem-vindas! Siga os passos abaixo para contribuir:
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-1. Faça um fork do projeto.
-2. Crie uma branch com sua feature (`git checkout -b minha-feature`).
-3. Faça commit das suas alterações (`git commit -m 'Adiciona minha feature'`).
-4. Envie para a branch principal (`git push origin minha-feature`).
-5. Abra um Pull Request.
+## Additional Resources
 
----
-
-## 👤 Autor
-
-**Paulo Viktor**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-perfil)  
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pauloviktwr)
-
----
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
